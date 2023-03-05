@@ -80,8 +80,8 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             main_btn_link = f"https://telegram.me/{main_channel_username}"
             file_name = message.caption
             caption_z = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/mdiskbot200'>⎝⎝✧Bot Maker✧⎠⎠</a>"
-            caption_za = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://t.me/nickallbots'>⎝⎝✧Bot Maker✧⎠⎠</a>"
-            caption_zab = f"{file_name}\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/mdiskbot200'>⎝⎝✧ʟᴀᴢʏᴅᴇᴠᴇʟᴏᴘᴇʀ✧⎠⎠</a>"
+            caption_za = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/nickallbots'>⎝⎝✧Bot Maker✧⎠⎠</a>"
+            caption_zab = f"{file_name}\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/mdiskbot200'>⎝⎝✧Bot Maker✧⎠⎠</a>"
             caption_zabi = f"{file_name}\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/mdiskbot200'>⎝⎝✧Bot Maker✧⎠⎠</a>"
             lazy_dev = f"+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/mdiskbot200'>⎝⎝✧Bot maker✧⎠⎠</a>"
             lazypost_custom_template = f"{(Config.LP_CUSTOM_TEMPLATE)}\n\n{lazy_dev} ♥️"
@@ -179,7 +179,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             main_btn_link = f"https://telegram.me/{main_channel_username}"
             file_name = message.caption
             caption_z = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/mdiskbot200'>⎝⎝✧Bot Maker✧⎠⎠</a>"
-            caption_za = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://t.me/nickallbots'>⎝⎝✧Bot Maker✧⎠⎠</a>"
+            caption_za = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/nickallbots'>⎝⎝✧Bot Maker✧⎠⎠</a>"
             caption_zab = f"{file_name}\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/mdiskbot200'>⎝⎝✧Bot Maker✧⎠⎠</a>"
             caption_zabi = f"{file_name}\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/mdiskbot200'>⎝⎝✧Bot Maker✧⎠⎠</a>"
             lazy_dev = f"+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/mdiskbot200'>⎝⎝✧Bot Maker✧⎠⎠</a>"
