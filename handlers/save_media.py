@@ -55,8 +55,8 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             f"𝘑𝘶𝘴𝘵 𝘊𝘭𝘪𝘤𝘬 𝘵𝘩𝘦 𝘭𝘪𝘯𝘬 𝘵𝘰 𝘨𝘦𝘵 𝘺𝘰𝘶𝘳 𝘧𝘪𝘭𝘦𝘴!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("⚡️ Open Link ⚡️", url=share_link)],
-                 [InlineKeyboardButton("🛸ß⊕ts Channel", url="https://t.me/allmoviesherejoinhindi"),
-                  InlineKeyboardButton("🍿Movies gr⊕up", url="https://t.me/nickallbots")]]
+                 [InlineKeyboardButton("🛸ß⊕ts Channel", url="https://t.me/nickallbots"),
+                  InlineKeyboardButton("🍿Movies gr⊕up", url="https://t.me/allmoviesherejoinhindi")]]
             ),
             disable_web_page_preview=True
         )
@@ -215,7 +215,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             else:
                 # ✧ Please don't add unnescesary things here >[LazyDeveloper]
                 await bot.send_photo(lazy_channel,photo=location,caption=caption_zabi,reply_markup=reply_markup)
-            cptz = f"🥷\n\nღ♡ **𝘗𝘖𝘚𝘛 𝘜𝘗𝘓𝘖𝘈𝘋𝘌𝘋 𝘖𝘕 𝘊𝘏𝘈𝘕𝘕𝘌𝘓 𝘚𝘜𝘊𝘊𝘌𝘚𝘚𝘍𝘜𝘓𝘓𝘠**✅\n\n• ʙᴇ ᴄᴀʀᴇꜰᴜʟʟ - ʏᴏᴜ ᴀʀᴇ ᴄᴜʀʀᴇɴᴛʟʏ ɪɴ ʟᴀᴢʏ_ᴍᴏᴅᴇ\n• @ʟᴀᴢʏᴅᴠᴇʟᴏᴘᴇʀ"
+            cptz = f"🥷\n\nღ♡ **𝘗𝘖𝘚𝘛 𝘜𝘗𝘓𝘖𝘈𝘋𝘌𝘋 𝘖𝘕 𝘊𝘏𝘈𝘕𝘕𝘌𝘓 𝘚𝘜𝘊𝘊𝘌𝘚𝘚𝘍𝘜𝘓𝘓𝘠**✅\n\n• ʙᴇ ᴄᴀʀᴇꜰᴜʟʟ - ʏᴏᴜ ᴀʀᴇ ᴄᴜʀʀᴇɴᴛʟʏ ɪɴ ʟᴀᴢʏ_ᴍᴏᴅᴇ\n• @mdiskbot200"
             k = await message.reply_text(text=cptz)
             await asyncio.sleep(40)
             await k.delete()
