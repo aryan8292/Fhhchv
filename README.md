@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/d382d2fad1fdd2a4ccca4.png" alt="ROSE BUCKET Logo">
+  <img src="https://telegra.ph/file/33ddc4cc5f2c3639206c6.jpg" alt="ROSE BUCKET Logo">
 </p>
 <h1 align="center">
   <b>Miss Rozy : A Permanent file Store BOT</b>
